@@ -1,0 +1,1 @@
+# Using git (specifically when working with others)
