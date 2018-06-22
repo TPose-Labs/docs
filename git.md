@@ -17,5 +17,7 @@ Now that you've linked your local directory to your repository, you can go about
 
 When you use those three commands, all of your changes will be logged to the repository, and you can see them on github.
 Be careful, though. The first time you push something to a new branch or new repository, you have to use the following command instead of `git push`:
+
 If you've just created a new repository, then the command is `git push --set-upstream origin master`.
+
 If you've just created a new branch (we'll talk about that later), then the command is `git push --set-upstream origin <your_branch_name>`.
