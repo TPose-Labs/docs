@@ -10,3 +10,12 @@ You probably don't have anything in the repository right now. Here's how you lin
 And that's it. You've linked the repository to your local machine, and now you can go about adding whatever you want to it.
 
 ## Adding stuff to your repository
+Now that you've linked your local directory to your repository, you can go about adding whatever you want to it. That doesn't mean, however, that those changes will be reflected on git. There are three easy steps to logging your changes to git:
+* `git add .`
+* `git commit -m "<commit_message_goes_here>"`
+* `git push`
+
+When you use those three commands, all of your changes will be logged to the repository, and you can see them on github.
+Be careful, though. The first time you push something to a new branch or new repository, you have to use the following command instead of `git push`:
+If you've just created a new repository, then the command is `git push --set-upstream origin master`.
+If you've just created a new branch (we'll talk about that later), then the command is `git push --set-upstream origin <your_branch_name>`.
