@@ -8,5 +8,5 @@ You probably don't have anything in the repository right now. Here's how you lin
 * `git remote add origin <the_url_you_just_copied>`
 
 And that's it. You've linked the repository to your local machine, and now you can go about adding whatever you want to it.
----
+
 ## Adding stuff to your repository
